@@ -14,9 +14,9 @@
         ↓
 7. Convert phonon outputs to phonons.npz
         ↓
-8A. Analyze phonon DOS and projected vibrational mode character
+8.(A) Analyze phonon DOS and projected vibrational mode character
         ↓
-8B. Generate positive and negative displacements along selected phonon modes
+8.(B) Generate positive and negative displacements along selected phonon modes
         ↓
 9. Run dielectric tensor calculations for displaced structures
         ↓
