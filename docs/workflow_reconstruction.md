@@ -14,7 +14,6 @@
         ↓
 7. Convert phonon outputs to phonons.npz
         ↓
-   
 8.(A) Analyze phonon DOS and projected vibrational mode character
         ↓
 8.(B) Generate positive and negative displacements along selected phonon modes
