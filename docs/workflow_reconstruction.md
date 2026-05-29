@@ -1,21 +1,25 @@
 ## Workflow
 
-Structure generation from modifiying CIF
+1. Generate Li-deficient, Ta-doped LLZTO structures from a CIF template
         ↓
-Relaxation
+2. Relax the generated structures using VASP
         ↓
-Molecular dynamics at 800 K
+3. Run molecular dynamics at 800 K
         ↓
-Extraction and re-relaxation of 50 ps, 75 ps, and 100 ps structures
+4. Extract structures at 50 ps, 75 ps, and 100 ps
         ↓
-Frozen-phonon calculation
+5. Re-relax the extracted MD structures
         ↓
-Conversion of phonon output to phonons.npz
+6. Run Γ-point frozen-phonon calculations
         ↓
-Phonon DOS and mode-projection analysis
+7. Convert phonon outputs to phonons.npz
         ↓
-Finite-displacement Raman calculations
+8A. Analyze phonon DOS and projected vibrational mode character
         ↓
-Mode-resolved Raman activities in vasp_raman.dat
+8B. Generate positive and negative displacements along selected phonon modes
         ↓
-Gaussian broadening and Raman spectrum comparison
+9. Run dielectric tensor calculations for displaced structures
+        ↓
+10. Compute mode-resolved Raman activities
+        ↓
+11. Apply Gaussian broadening and compare simulated Raman spectra

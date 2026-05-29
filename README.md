@@ -21,7 +21,7 @@ For each Li content, processed data are organized for structures sampled from mo
 100 ps
 
 
-Main analysis goals
+Scientific goals
 
 The analysis focuses on:
 
