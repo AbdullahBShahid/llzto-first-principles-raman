@@ -1,3 +1,4 @@
+The original Helper scripts used for some intermediate workflow steps are not included:
 | Missing script        | Original role                                                                        |
 | --------------------- | ------------------------------------------------------------------------------------ |
 | `phonon2numpy`        | Converted VASP phonon output into `phonons.npz`.                                     |
